@@ -1,0 +1,9 @@
+F:\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+F:\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+F:\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+F:\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+F:\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+F:\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+F:\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+F:\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+F:\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
