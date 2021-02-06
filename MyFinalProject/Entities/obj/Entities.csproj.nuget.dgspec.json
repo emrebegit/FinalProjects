@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MyFinalProject\\Entities\\Entities.csproj": {}
+    "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "F:\\MyFinalProject\\Entities\\Entities.csproj": {
+    "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "F:\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectPath": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "F:\\MyFinalProject\\Entities\\obj\\",
+        "outputPath": "E:\\Emre\\MyFinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

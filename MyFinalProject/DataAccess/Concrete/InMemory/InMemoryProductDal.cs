@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
 namespace DataAccess.Concrete.InMemory
-{
+{/*
     public class InMemoryProductDal : IProductDAL
     {
         List<Product> products;
@@ -58,9 +59,19 @@ namespace DataAccess.Concrete.InMemory
             products.Remove(producttodelete);
         }
 
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll()
         {
             return products;
+        }
+
+        public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Product product)
@@ -71,13 +82,6 @@ namespace DataAccess.Concrete.InMemory
             producttupdate.UnitPrice = product.UnitPrice;
             producttupdate.UnitInStock = product.UnitInStock;
             producttupdate.CategoryId = product.CategoryId;
-        }
-        
-
-   
-        List<Product> IProductDAL.GetCategoryId(int categoryid)
-        {
-            return products.Where(p => p.CategoryId == categoryid).ToList();
-        }
-    }
+        }            
+    }*/
 }

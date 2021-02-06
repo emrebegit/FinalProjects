@@ -5,7 +5,7 @@ using DataAccess.Abstract;
 using Entities.Concrete;
 
 namespace DataAccess.Concrete.InMemory
-{
+{/*
     public class InMemoryCarDAL : ICarDAL
     {
         List<Car> cars;
@@ -91,5 +91,5 @@ namespace DataAccess.Concrete.InMemory
         {
             return cars.Where(c => c.BrandId == categoryid).ToList();
         }
-    }
+    }*/
 }

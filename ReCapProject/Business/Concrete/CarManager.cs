@@ -17,7 +17,18 @@ namespace Business.Concrete
 
         public void Add(Car car)
         {
-            _Icardal.Add(car);         
+            if (car.BrandId.ToString().Length < 2)
+            {
+                Console.WriteLine("Your BrandId is not good");
+            }
+            else if (car.DailyPrice < 0)
+            {
+                Console.WriteLine("Dailyprice<0");
+            }
+            else
+            {
+                _Icardal.Add(car);
+            }       
         }
 
         public void Delete(Car car)
@@ -30,9 +41,14 @@ namespace Business.Concrete
             return _Icardal.GetAll();
         }
 
-        public List<int> GetByBrandIds()
+        public List<Car> GetCarsByBrandId(int id)
         {
-            return _Icardal.GetByBrandIds();
+            return _Icardal.GetAll(p => p.BrandId == id);
+        }
+
+        public List<Car> GetCarsByColorId(int id)
+        {
+            return _Icardal.GetAll(p => p.ColorId == id);
         }
 
         public void Update(Car car)

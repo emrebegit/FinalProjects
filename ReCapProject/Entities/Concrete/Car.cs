@@ -9,10 +9,10 @@ namespace Entities.Concrete
     {
         public int CarId { get; set; }
         public int BrandId { get; set; }
-        public string Brand { get; set; }
+        public int ColorId { get; set; }
         public int ModelYear { get; set; }
-        public float DailyPrice { get; set; }
-        public string Desc { get; set; }
+        public decimal DailyPrice { get; set; }
+        public string CarDesc { get; set; }
 
     }
 }
