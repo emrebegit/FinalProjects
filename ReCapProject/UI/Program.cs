@@ -10,8 +10,50 @@ namespace UI
     {
         static void Main(string[] args)
         {
+            
+            ListwithJoin();
+            PrintColorIds();
+            PrintBrandIds();
+            CarmngOld();
+            Console.ReadLine();
+        }
+
+        private static void PrintBrandIds()
+        {
+            BrandManager brandmanager = new BrandManager(new EfBrandDAL());
+            foreach (var item in brandmanager.GetAll())
+            {
+                Console.WriteLine(item.BrandId);
+            }
+        }
+
+        private static void PrintColorIds()
+        {
+            ColorManager colormanager = new ColorManager(new EfColorDAL());
+            foreach (var item in colormanager.GetAll())
+            {
+                Console.WriteLine(item.ColorId);
+            }
+        }
+
+        private static void ListwithJoin()
+        {
             CarManager crmng = new CarManager(new EfCarDAL());
-            List<Car> cars=crmng.GetAll();
+            foreach (var item in crmng.GetProductDetails())
+            {
+                Console.WriteLine("CarId:" + item.CarId + "\n " +
+                    "BrandId:" + item.BrandId +
+                    "\n BrandName:" + item.BrandName +
+                    "\n ColorId:" + item.ColorId +
+                    "\n ColorName:" + item.ColorName +
+                    "\n DailyPrice:" + item.DailyPrice);
+            }
+        }
+
+        private static void CarmngOld()
+        {
+            CarManager crmng = new CarManager(new EfCarDAL());
+            List<Car> cars = crmng.GetAll();
             foreach (var item in cars)
             {
                 Console.WriteLine(item.CarId);
@@ -21,10 +63,10 @@ namespace UI
                 Console.WriteLine(item.ModelYear);
                 Console.WriteLine(item.CarDesc);
             }
-            string value="H";
+            string value = "H";
             do
             {
-                Console.WriteLine("Press 1 add Car" );
+                Console.WriteLine("Press 1 add Car");
                 Console.WriteLine("Press 2 delete Car");
                 Console.WriteLine("Update press 3 ");
                 Console.WriteLine("Press E for exit");
@@ -34,7 +76,7 @@ namespace UI
                     Console.WriteLine("(int)(len>2)Id:");
                     int CarId1 = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("(int)BrandId:");
-                    eint BrandId1 = Convert.ToInt32(Console.ReadLine());
+                    int BrandId1 = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("(int)ColorId:");
                     int ColorId1 = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("(int)ModelYear:");
@@ -42,16 +84,16 @@ namespace UI
                     Console.WriteLine("(Decimal)DailyPrice:");
                     int DailyPrice1 = (int)Convert.ToDecimal(Console.ReadLine());
                     Console.WriteLine("(string)Desc:");
-                    string CarDesc1= Console.ReadLine();
+                    string CarDesc1 = Console.ReadLine();
                     Car car1 = new Car();
                     car1 = new Car()
                     {
                         CarId = CarId1,
                         CarDesc = CarDesc1,
-                        BrandId=BrandId1,
-                        ColorId=ColorId1,
-                        ModelYear=ModelYear1,
-                        DailyPrice=DailyPrice1,           
+                        BrandId = BrandId1,
+                        ColorId = ColorId1,
+                        ModelYear = ModelYear1,
+                        DailyPrice = DailyPrice1,
                     };
                     crmng.Add(car1);
                 }
@@ -81,7 +123,7 @@ namespace UI
                     };
                     crmng.Delete(car1);
                 }
-                else if (value=="3")
+                else if (value == "3")
                 {
                     Console.WriteLine("(int)(len>2)Id:");
                     int CarId1 = Convert.ToInt32(Console.ReadLine());
@@ -107,9 +149,9 @@ namespace UI
                     };
                     crmng.Update(car1);
                 }
-            } while (value=="E");
+            } while (value == "E");
             Console.WriteLine("GetByBrandId");
-            List<Car> GetbyBrandid=crmng.GetCarsByBrandId(2);
+            List<Car> GetbyBrandid = crmng.GetCarsByBrandId(2);
             foreach (var item in GetbyBrandid)
             {
                 Console.WriteLine(item.CarId);
@@ -130,7 +172,6 @@ namespace UI
                 Console.WriteLine(item.ModelYear);
                 Console.WriteLine(item.CarDesc);
             }
-            Console.ReadLine();
         }
     }
 }
