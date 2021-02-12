@@ -1692,24 +1692,10 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
-        },
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
-      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
@@ -1723,9 +1709,6 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Core": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -6233,11 +6216,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
-    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -6262,11 +6240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj",
+      "projectUniqueName": "E:\\Emre\\MyFinalProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj",
+      "projectPath": "E:\\Emre\\MyFinalProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\obj\\",
+      "outputPath": "E:\\Emre\\MyFinalProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6283,11 +6261,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+            "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj"
+            "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj"
             }
           }
         }
@@ -6319,7 +6297,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

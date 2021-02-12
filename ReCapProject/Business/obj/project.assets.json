@@ -1692,19 +1692,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
-        },
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
-      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1722,9 +1709,6 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Core": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -6232,11 +6216,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
-    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -6261,11 +6240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Business\\Business.csproj",
+      "projectUniqueName": "E:\\Emre\\ReCapProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Business\\Business.csproj",
+      "projectPath": "E:\\Emre\\ReCapProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Business\\obj\\",
+      "outputPath": "E:\\Emre\\ReCapProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6282,11 +6261,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "E:\\Emre\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "E:\\Emre\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Entities\\Entities.csproj"
+            "E:\\Emre\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "E:\\Emre\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }
@@ -6318,7 +6297,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,15 +3,60 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using Core.DataAccess.EntityFramework;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfColorDAL : EfEntityRepositoryBase<Color,CarProjectContext>,IColorDAL
+    public class EfColorDAL : IColorDAL
     {
-      
+        public void Add(Color entity)
+        {
+            using (CarProjectContext context=new CarProjectContext())
+            {
+                var addedEntity = context.Entry(entity);
+                addedEntity.State = EntityState.Added;
+                context.SaveChanges();
+            }
+        }
+
+        public void Delete(Color entity)
+        {
+            using (CarProjectContext context = new CarProjectContext())
+            {
+                var deletedEntity = context.Entry(entity);
+                deletedEntity.State = EntityState.Deleted;
+                context.SaveChanges();
+            }
+        }
+
+        public Color Get(Expression<Func<Color, bool>> filter)
+        {
+            using (CarProjectContext context=new CarProjectContext())
+            {
+                return context.Set<Color>().SingleOrDefault(filter);
+            }
+        }
+
+        public List<Color> GetAll(Expression<Func<Color, bool>> filter = null)
+        {
+           using(CarProjectContext context=new CarProjectContext())
+            {
+                return filter == null ?
+                    context.Set<Color>().ToList()
+                    : context.Set<Color>().Where(filter).ToList();
+            }
+        }
+
+        public void Update(Color entity)
+        {
+            using (CarProjectContext context = new CarProjectContext())
+            {
+                var updatedEntity = context.Entry(entity);
+                updatedEntity.State = EntityState.Modified;
+                context.SaveChanges();
+            }
+        }
     }
 }

@@ -1482,19 +1482,6 @@
           "bin/placeholder/Business.dll": {}
         }
       },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
-        },
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
-      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1512,9 +1499,6 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Core": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -5703,11 +5687,6 @@
       "path": "../Business/Business.csproj",
       "msbuildProject": "../Business/Business.csproj"
     },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
-    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -5732,11 +5711,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\UI\\UI.csproj",
+      "projectUniqueName": "E:\\Emre\\ReCapProject\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\UI\\UI.csproj",
+      "projectPath": "E:\\Emre\\ReCapProject\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\UI\\obj\\",
+      "outputPath": "E:\\Emre\\ReCapProject\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5753,14 +5732,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Business\\Business.csproj"
+            "E:\\Emre\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "E:\\Emre\\ReCapProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "E:\\Emre\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "E:\\Emre\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\ReCapProject\\Entities\\Entities.csproj"
+            "E:\\Emre\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "E:\\Emre\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }
@@ -5789,7 +5768,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

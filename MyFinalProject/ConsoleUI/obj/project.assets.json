@@ -1482,24 +1482,10 @@
           "bin/placeholder/Business.dll": {}
         }
       },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
-        },
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
-      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Core": "1.0.0",
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
@@ -1513,9 +1499,6 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Core": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -5704,11 +5687,6 @@
       "path": "../Business/Business.csproj",
       "msbuildProject": "../Business/Business.csproj"
     },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
-    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -5733,11 +5711,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "E:\\Emre\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "E:\\Emre\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\ConsoleUI\\obj\\",
+      "outputPath": "E:\\Emre\\MyFinalProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5754,14 +5732,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj"
+            "E:\\Emre\\MyFinalProject\\Business\\Business.csproj": {
+              "projectPath": "E:\\Emre\\MyFinalProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+            "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj"
+            "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj"
             }
           }
         }
@@ -5790,7 +5768,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
