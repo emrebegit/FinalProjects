@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Emre\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "E:\\Emre\\MyFinalProject\\Business\\Business.csproj": {
+    "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Emre\\MyFinalProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "E:\\Emre\\MyFinalProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Emre\\MyFinalProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -64,18 +64,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Emre\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Emre\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "E:\\Emre\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Emre\\MyFinalProject\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,14 +92,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Emre\\MyFinalProject\\Business\\Business.csproj": {
-                "projectPath": "E:\\Emre\\MyFinalProject\\Business\\Business.csproj"
+              "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Business\\Business.csproj"
               },
-              "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -128,18 +128,79 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "E:\\Emre\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Emre\\MyFinalProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,8 +217,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Core\\Core.csproj"
+              },
+              "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -193,18 +257,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "E:\\Emre\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Emre\\MyFinalProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -220,7 +284,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\FinalProjects\\MyFinalProject\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -250,7 +318,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
