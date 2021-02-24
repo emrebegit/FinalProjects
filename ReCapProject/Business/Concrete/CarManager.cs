@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -17,27 +19,12 @@ namespace Business.Concrete
         {
             _Icardal = icardal;
         }
-
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
-        {
-            if (car.BrandId.ToString().Length < 2)
-            {
-                Console.WriteLine("Your BrandId is not good");
-                return new ErrorResult(Messages.CarNameInvalit);
-                
-            }
-            else if (car.DailyPrice < 0)
-            {
-                Console.WriteLine("Dailyprice<0");
-                return new ErrorResult(Messages.CarDailyPrice);
-                
-            }
-            else
-            {
+        {  
                 _Icardal.Add(car);
                 return new SuccessResult();
-                
-            }       
+
         }
 
         public IResult Delete(Car car)

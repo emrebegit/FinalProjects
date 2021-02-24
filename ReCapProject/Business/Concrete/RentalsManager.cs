@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -15,17 +17,13 @@ namespace Business.Concrete
         {
             _Irentalsdal = Irentalsdal;
         }
+        [ValidationAspect(typeof(RentalValitador))]
         public IResult Add(Rentals rental)
         {
-            if (rental.ReturnDate==null)
-            {
-                return new ErrorResult("This car is not true status");
-            }
-            else
-            {
+     
                 _Irentalsdal.Add(rental);
                 return new SuccessResult();
-            }
+            
         }
 
         public IResult Delete(Rentals rental)
