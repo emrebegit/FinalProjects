@@ -80,3 +80,17 @@ C:\Users\PC\Desktop\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandar
 C:\Users\PC\Desktop\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\PC\Desktop\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\PC\Desktop\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

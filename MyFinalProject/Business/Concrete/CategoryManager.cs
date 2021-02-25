@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -14,14 +15,14 @@ namespace Business.Concrete
         {
             _ICategoryDAL = CategoryDal;
         }
-        public List<Category> GetAll()
+        public IDataResult<List<Category>> GetAll()
         {
-            return _ICategoryDAL.GetAll();
+            return new SuccessDataResult<List<Category>>(_ICategoryDAL.GetAll());
         }
 
-        public Category GetById(int categoryid)
+        public IDataResult<Category> GetById(int categoryid)
         {
-            return _ICategoryDAL.Get(c => c.CategoryId == categoryid);
+            return new SuccessDataResult<Category>( _ICategoryDAL.Get(c => c.CategoryId == categoryid));
         }
     }
 }
