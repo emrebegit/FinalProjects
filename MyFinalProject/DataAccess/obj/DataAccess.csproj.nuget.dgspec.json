@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\furki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\furki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,21 +77,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\furki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\furki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,11 +105,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj"
+              "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -145,21 +145,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\furki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\furki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,8 +173,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\furki\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj"
+              "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\FinalProjects\\MyFinalProject\\Core\\Core.csproj"
               }
             }
           }
@@ -206,7 +206,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

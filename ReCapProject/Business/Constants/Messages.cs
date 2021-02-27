@@ -23,5 +23,9 @@ namespace Business.Constants
         public static string BrandInvalit = "Brand name is invalid";
         public static string BrandListed = "Brand are listed";
         public static string MaintenanceTime = "System is not working for now";
+        internal static string LimitOfImages="Images count is so big";
+        internal static string ImagesAdded="Images is added";
+        internal static string ImagesDeleted="Images is deleted";
+        internal static string BadDeleteOperations="Images is not delete";
     }
 }

@@ -34,6 +34,9 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<RentalsManager>().As<IRentalsService>().SingleInstance();
             builder.RegisterType<EfRentalsDAL>().As<IRentalsDAL>().SingleInstance();
 
+            builder.RegisterType<CarImagesManager>().As<ICarImagesService>().SingleInstance();
+            builder.RegisterType<EfCarImagesDAL>().As<ICarImagesDAL>().SingleInstance();
+
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces().

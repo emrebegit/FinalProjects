@@ -49,3 +49,15 @@ C:\Users\PC\Desktop\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.cspr
 C:\Users\PC\Desktop\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
 C:\Users\PC\Desktop\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\PC\Desktop\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
