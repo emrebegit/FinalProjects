@@ -262,3 +262,10 @@ C:\Users\PC\Desktop\FinalProjects\MyFinalProject\ConsoleUI\obj\Debug\netcoreapp3
 C:\Users\PC\Desktop\FinalProjects\MyFinalProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
 C:\Users\PC\Desktop\FinalProjects\MyFinalProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
 C:\Users\PC\Desktop\FinalProjects\MyFinalProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+C:\Users\PC\Documents\GitHub\FinalProjects\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\PC\Documents\GitHub\FinalProjects\MyFinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll

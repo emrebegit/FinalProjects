@@ -144,3 +144,4 @@ C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\WebAPI\obj\Debug\ne
 C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
 C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 C:\Users\furki\Documents\GitHub\FinalProjects\MyFinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\PC\Documents\GitHub\FinalProjects\MyFinalProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
