@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Business.Abstract;
+using Business.BusinessAspects;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -21,7 +22,7 @@ namespace Business.Concrete
         {
             _ICarImagesDAL = ICarImagesDAL;
         }
-        
+        [SecuredOperation("carimages.add,admin")]
         public IResult Add(CarImages item)
         {
             throw new NotImplementedException();
@@ -30,7 +31,7 @@ namespace Business.Concrete
         {
             throw new NotImplementedException();
         }
-        [ValidationAspect(typeof(CarImagesValidator))]
+       [ValidationAspect(typeof(CarImagesValidator))]
         public IResult AddImage(IFormFile file, CarImages carImages)
         {
             IResult result = BusinessRules.Run(CheckLimitOfImages(carImages.CarId));

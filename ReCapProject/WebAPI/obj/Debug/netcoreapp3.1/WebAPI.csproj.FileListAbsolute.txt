@@ -159,7 +159,6 @@ C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcore
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
-C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -189,7 +188,6 @@ C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcore
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\PC\Documents\GitHub\FinalProjects\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -23,9 +25,16 @@ namespace Business.Constants
         public static string BrandInvalit = "Brand name is invalid";
         public static string BrandListed = "Brand are listed";
         public static string MaintenanceTime = "System is not working for now";
-        internal static string LimitOfImages="Images count is so big";
-        internal static string ImagesAdded="Images is added";
-        internal static string ImagesDeleted="Images is deleted";
-        internal static string BadDeleteOperations="Images is not delete";
+        public static string LimitOfImages="Images count is so big";
+        public static string ImagesAdded="Images is added";
+        public static string ImagesDeleted="Images is deleted";
+        public static string BadDeleteOperations="Images is not delete";
+        public static string AuthorizationDenied="yetki yok";
+        public static string AccessTokenCreated="token oluşturuldu";
+        public static string UserNotFound="kullanıcı bulunamadı";
+        public static string PasswordError="hatalı parola";
+        public static string SuccessfulLogin="giriş başarılı";
+        public static string UserRegistered="kullanıcı oluşturuldu";
+        public static string UserAlreadyExists="kullanıcı mevcut";
     }
 }

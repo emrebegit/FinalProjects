@@ -10,10 +10,6 @@ namespace Business.ValidationRules.FluentValidation
     {
         public CarImagesValidator()
         {
-            RuleFor(c => c.CarId).NotEmpty();
-            RuleFor(c => c.Id).NotEmpty();
-            RuleFor(c => c.ImagePath).NotEmpty();
-            RuleFor(c => c.Date).NotEmpty();
         }
     }
 }

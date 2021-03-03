@@ -44,7 +44,7 @@ namespace Core.Business
             FileInfo ff = new FileInfo(file.FileName);
             string fileExtension = ff.Extension;
 
-            string path = Environment.CurrentDirectory + @"\Images\carImages";
+            string path = Environment.CurrentDirectory + @".\Business\Images\carImages";
             var newPath = Guid.NewGuid().ToString() + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Year + fileExtension;
 
             string result = $@"{path}\{newPath}";
