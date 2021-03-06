@@ -26,6 +26,8 @@ namespace Business.Concrete
             
         }
 
+        
+
         public IResult Delete(Rentals rental)
         {
             _Irentalsdal.Delete(rental);

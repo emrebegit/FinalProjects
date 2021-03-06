@@ -9,6 +9,5 @@ namespace Business.Abstract
 {
     public interface IRentalsService:IOperations<Rentals>
     {
-        
     }
 }
